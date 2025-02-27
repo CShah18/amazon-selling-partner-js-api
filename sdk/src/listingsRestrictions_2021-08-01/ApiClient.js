@@ -532,6 +532,7 @@ export class ApiClient {
         returnType) {
 
         var url = this.buildUrl(path, pathParams);
+        url = decodeURIComponent(url);
         var request = superagent(httpMethod, url);
         if (!this.#tokenForApiCall && !this.#lwaClient && !this.#rdtClient) {
             throw new Error('none of accessToken, RDT token and auto-retrieval is set.');

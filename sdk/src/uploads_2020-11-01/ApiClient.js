@@ -533,6 +533,7 @@ export class ApiClient {
 
         var url = this.buildUrl(path, pathParams);
         url = decodeURIComponent(url);
+        url = decodeURIComponent(url);
         console.log("url", url)
         var request = superagent(httpMethod, url);
         if (!this.#tokenForApiCall && !this.#lwaClient && !this.#rdtClient) {
