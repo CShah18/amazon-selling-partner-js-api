@@ -64,8 +64,6 @@ export class UploadsApi {
         throw new Error("Missing the required parameter 'resource' when calling createUploadDestinationForResource");
       }
 
-
-      console.log(resource)
       let pathParams = {
         'resource': resource
       };
