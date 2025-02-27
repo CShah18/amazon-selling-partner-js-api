@@ -1,7 +1,7 @@
 {
   "name": "@cshah18/amazon-selling-partner-js-api",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The NPM package name should always start with `@amzn/` to cleanly separate from public packages, avoid accidental publish to public repository, and allow publishing to CodeArtifact.",
   "main": "/src/index.mjs",
   "scripts": {
