@@ -32,7 +32,7 @@ export class PostContentDocumentApprovalSubmissionResponse extends AplusResponse
    */
   constructor() {
     super();
-    AplusResponse.call(this);
+    // AplusResponse.call(this);
   }
 
   /**
